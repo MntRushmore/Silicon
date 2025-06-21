@@ -62,7 +62,7 @@ const Index = () => {
 
                 <div className="flex items-center justify-center space-x-2 text-green-400">
                   <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                  <span className="font-mono">STATUS: Starting 22nd June 2025!</span>
+                  <span className="font-mono">STATUS: Started!</span>
                 </div>
               </div>
 

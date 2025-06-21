@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { CircuitPattern } from '@/components/CircuitPattern';
 import { GlowingButton } from '@/components/GlowingButton';
@@ -33,6 +32,7 @@ const Index = () => {
           <nav className="hidden md:flex space-x-6">
             <a href="#about" className="hover:text-green-300 transition-colors font-mono">ABOUT</a>
             <a href="#gallery" className="hover:text-green-300 transition-colors font-mono">GALLERY</a>
+            <a href="/guide" className="hover:text-green-300 transition-colors font-mono">GUIDE</a>
           </nav>
         </header>
 
@@ -55,8 +55,8 @@ const Index = () => {
               
               <div className="space-y-6 text-gray-300 max-w-2xl mx-auto px-4">
                 <p className="text-lg leading-relaxed">
-                  Design your own custom devboard and we’ll fund it.<br />
-                  This is for <strong>under 18s only</strong> and <strong>must</strong> be built using <span className="text-white font-medium">EasyEDA</span>.<br />
+                  Design your own custom devboard and we'll fund it.<br />
+                  This is for <strong>18 And Under Only</strong> and <strong>must</strong> be built using <span className="text-white font-medium">EasyEDA</span>.<br />
                   Got questions? Contact <span className="text-white font-semibold">@Aarav J</span> on Slack!
                 </p>
 
@@ -77,6 +77,11 @@ const Index = () => {
                   text="VIEW GALLERY" 
                   primary={false}
                   onClick={() => document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' })}
+                />
+                <GlowingButton 
+                  text="VIEW GUIDE" 
+                  primary={false}
+                  onClick={() => window.location.href = '/guide'}
                 />
               </div>
             </div>

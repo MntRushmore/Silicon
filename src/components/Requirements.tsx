@@ -8,7 +8,7 @@ export const Requirements = () => {
     },
     {
       title: "Open Source",
-      description: "Design files and schematics must be shared under an open source license"
+      description: "Design files and schematics must be open soruce"
     },
 
     {
@@ -16,52 +16,48 @@ export const Requirements = () => {
       description: "Include comprehensive documentation, assembly guide, and example code"
     },
 
-    {
-      title: "Budget Justification",
-      description: "Provide detailed breakdown of costs and quantity needed (max $50)"
-    }
   ];
 
   const partsAllowed = [
     {
       component: "Microcontrollers",
-      examples: "Any ESP32, STM32, RP2040 or Atmega",
-      limit: "1 per board - Special cases allowed if you can justify why you need more"
+      examples: "Any Microcontroller available on LCSC!",
+      limit: "Unlimited!"
     },
     {
       component: "LEDs or Neopixels",
       examples: "Standard LEDs, RGB LEDs, WS2812B strips",
-      limit: "Unlimited - Please don't go overboard!"
+      limit: "Unlimited!"
     },
     {
       component: "Storage",
       examples: "SD card slots, EEPROM, Flash memory",
-      limit: "Multiple slots allowed"
+      limit: "Unlimited!"
     },
     {
       component: "Sensors",
       examples: "Temperature, humidity, accelerometer, gyro",
-      limit: "Up to 10 sensors Max"
+      limit: "Unlimited!"
     },
     {
       component: "Communication",
       examples: "WiFi, Bluetooth, USB, UART, I2C, SPI",
-      limit: "Multiple interfaces"
+      limit: "Unlimited!"
     },
     {
       component: "Power Management",
       examples: "Voltage regulators, battery connectors, charging circuits",
-      limit: "As needed for design"
+      limit: "Unlimited!"
     },
     {
       component: "I/O Connectors",
       examples: "GPIO headers, terminal blocks, JST connectors, USB-C, USB-A, USB-B, etc.",
-      limit: "Up to 40 pins and 1 connector - Special cases allowed if you can justify why you need more"
+      limit: "Unlimited!"
     },
     {
       component: "Display Interfaces",
       examples: "OLED connectors, LCD headers, e-ink interfaces",
-      limit: "Unlimited - Please don't go overboard!"
+      limit: "Unlimited!"
     }
   ];
 
@@ -100,7 +96,7 @@ export const Requirements = () => {
         <div className="mb-16">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-green-400 font-mono mb-4">REQUIREMENTS</h2>
-            <p className="text-gray-300 text-lg">What you need to qualify for Silicon funding</p>
+            <p className="text-gray-300 text-lg">What you need to qualify for Silicon</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

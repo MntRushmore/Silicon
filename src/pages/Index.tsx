@@ -54,11 +54,13 @@ const Index = () => {
               </div>
               
               <div className="space-y-6 text-gray-300 max-w-2xl mx-auto px-4">
-                <p className="text-lg leading-relaxed">
-                  Design your own custom devboard and we'll fund it.<br />
-                  This is for <strong>18 And Under Only</strong> and <strong>must</strong> be built using <span className="text-white font-medium">EasyEDA</span>.<br />
-                  Got questions? Contact <span className="text-white font-semibold">@Aarav J</span> on Slack!
-                </p>
+              <p className="text-lg leading-relaxed">
+                Design your own custom devboard and we'll fund it.<br />
+                This is for <strong>18 and under only</strong>, and your board <strong>must</strong> be designed using <span className="text-white font-medium">EasyEDA Pro (Free)</span>.<br />
+                Got questions? Contact <span className="text-white font-semibold">@Aarav J</span> on Slack.<br />
+                <span className="text-red-400 font-medium">Note:</span> Only designs made in EasyEDA Pro (Free) will be accepted — no other software allowed.
+              </p>
+
 
                 <div className="flex items-center justify-center space-x-2 text-green-400">
                   <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>

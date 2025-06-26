@@ -15,6 +15,19 @@ export const Requirements = () => {
       title: "Detailed Documentation",
       description: "Include comprehensive documentation, assembly guide, and example code"
     },
+    {
+      title: "EasyEDA Pro (Free)",
+      description: "You must use EasyEDA Pro (Free) to design your devboard. Any other software will not be accepted."
+    },
+    {
+      title: "18 and Under Only",
+      description: "You must be 18 years old or younger to apply."
+    },
+    {
+      title: "Time",
+      description: "You must have at least 10 hours of work on your devboard."
+    }
+
 
   ];
 
@@ -65,7 +78,7 @@ export const Requirements = () => {
     {
       step: "00",
       title: "Buidling Your Devboard",
-      description: "Build your devboard and get it working - Make sure to upload it to OSHWA! - Please not it MUST be built using EasyEDA due to a sponsorship from EasyEDA"
+      description: "Build your devboard and get it working - Make sure to upload it to OSHWStars! - Please not it MUST be built using EasyEDA due to a sponsorship from EasyEDA"
     },
     {
       step: "01",

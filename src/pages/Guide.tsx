@@ -99,7 +99,7 @@ const Guide = () => {
   const resources = [
     {
       title: "EasyEDA Tutorials",
-      description: "Learn PCB design with EasyEDA",
+      description: "Learn PCB design with EasyEDA Pro (Free)",
       link: "https://docs.easyeda.com/en/",
       external: true
     },

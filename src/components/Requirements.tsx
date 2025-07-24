@@ -12,21 +12,13 @@ export const Requirements = () => {
     },
 
     {
-      title: "Detailed Documentation",
-      description: "Include comprehensive documentation, assembly guide, and example code"
-    },
-    {
-      title: "EasyEDA Pro (Free)",
-      description: "You must use EasyEDA Pro (Free) to design your devboard. Any other software will not be accepted."
+      title: "Time Tracking",
+      description: "Projects must be tracked with hackatime! (no minimum hour tracked requirement though)"
     },
     {
       title: "18 and Under Only",
       description: "You must be 18 years old or younger to apply."
     },
-    {
-      title: "Time",
-      description: "You must have at least 10 hours of work on your devboard."
-    }
 
 
   ];
@@ -76,24 +68,19 @@ export const Requirements = () => {
 
   const process = [
     {
-      step: "00",
+      step: "01",
       title: "Buidling Your Devboard",
-      description: "Build your devboard and get it working - Make sure to upload it to OSHWStars! - Please not it MUST be built using EasyEDA due to a sponsorship from EasyEDA"
+      description: "Build your devboard and get it working - Upload it to github or OSHWLab"
     },
     {
-      step: "01",
+      step: "02",
       title: "Submit Application",
       description: "Fill out the application form with your design details and documentation - Make sure to include a link to your project on GitHub!"
     },
     {
-      step: "02", 
+      step: "03", 
       title: "Review Process",
-      description: "We will review your submission and if you are approved, we will send the grant to you via HCB! - Please not this grant ONLY covers shipping - You will get a JLC coupon code to cover the rest of the cost"
-    },
-    {
-      step: "03",
-      title: "Grant Approval",
-      description: "Approved projects get funded to manufacture their devboards. You’ll receive a $25 HCB grant for shipping, and can request more if you’ve put in extra work or hours."
+      description: "We will review your submission and if you are approved, we will send the grant to you via HCB!"
     },
     {
       step: "04",

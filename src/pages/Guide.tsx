@@ -23,7 +23,7 @@ const Guide = () => {
     },
     {
       title: "Check Eligibility",
-      description: "You must be 18 years old or younger. Your design must be original and built using EasyEDA. Open source licensing is required.",
+      description: "You must be 18 years old or younger. Your design must be original and open source",
       icon: CheckCircle
     },
     {
@@ -71,7 +71,7 @@ const Guide = () => {
     {
       step: "02", 
       title: "Schematic Design",
-      description: "Create your schematic in EasyEDA. Design the electrical connections between components, ensuring proper power and signal routing.",
+      description: "Create your schematic in your preferred EDA software. Design the electrical connections between components, ensuring proper power and signal routing.",
       tips: ["Use proper component symbols", "Include power and ground connections", "Refer to the design guide of your microcontroller for help and rules for using it"]
     },
     {
@@ -89,7 +89,7 @@ const Guide = () => {
   ];
 
   const submissionChecklist = [
-    "Original design files (EasyEDA project)",
+    "Original design files",
     "Complete schematic and PCB layout",
     "Bill of Materials (BOM) with LCSC part numbers",
     "GitHub repository link",
@@ -138,11 +138,11 @@ const Guide = () => {
   const faq = [
     {
       question: "What is the maximum grant amount?",
-      answer: "The base grant is $25 for shipping costs (You will get a JLC coupon code to cover the rest of the cost). Additional funding may be available for exceptional projects or extra work."
+      answer: "The maximum grant amount you can get is $300!! This follows the standard $5/h rate but exceptional projects made in less time can also qualify"
     },
     {
       question: "Can I use components from other sources?",
-      answer: "You can use any components available on LCSC. For other sources, You need to source them yourself."
+      answer: "Yes! But its highly suggested to use lcsc"
     },
     {
       question: "What if my design is rejected?",
@@ -150,16 +150,12 @@ const Guide = () => {
     },
     {
       question: "How long does the review process take?",
-      answer: "Typically 1-2 days. We'll notify you via email once the review is complete."
+      answer: "Typically 1-2 days. We'll notify you via slack once the review is complete."
     },
     {
       question: "Can I submit multiple designs?",
       answer: "Yes, you can submit multiple designs, but each must be original and meet all requirements."
     },
-    {
-      question: "What happens if my PCB doesnt work?",
-      answer: "Reach out to @Aarav J on slack and you will be able to resubmit your design for a new grant!"
-    }
   ];
 
   const renderContent = () => {
@@ -394,7 +390,7 @@ const Guide = () => {
             <div className="mt-8 p-6 bg-purple-900/20 border border-purple-800/30 rounded-lg text-center">
               <h3 className="text-lg font-bold text-purple-400 font-mono mb-2">STILL HAVE QUESTIONS?</h3>
               <p className="text-gray-300 mb-4">
-                Contact @Aarav J on Slack or reach out in the #silicon channel for personalized help.
+                Contact @Rudy or @Aarav J on Slack or reach out in the #silicon channel for personalized help.
               </p>
               <a 
                 href="https://hackclub.com/slack"

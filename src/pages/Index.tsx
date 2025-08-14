@@ -56,7 +56,7 @@ const Index = () => {
               <div className="space-y-6 text-gray-300 max-w-2xl mx-auto px-4">
               <p className="text-lg leading-relaxed">
                 Design your own custom devboard and we'll fund it.<br />
-                This is for <strong>18 and under only</strong> <br />
+                Sponsored By <strong>EasyEDA 💖</strong> <br />
                 Got questions? Contact <span className="text-white font-semibold">@Aarav J or @Rudy</span> on Slack.<br />
                
               </p>
